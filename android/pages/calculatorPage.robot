@@ -95,3 +95,12 @@ Testando qual o valor de 10% de 149
     Click Element    ${BOTAO_PORCENTAGEM}
     Click Element    ${BOTAO_IGUAL}
     Wait Until Element Is Visible    ${CAMPO_RESULTADO}
+
+Testando qual o valor de 500 dividido por 5
+    Click Element    ${BOTAO_5}
+    Click Element    ${BOTAO_0}
+    Click Element    ${BOTAO_0}
+    Click Element    ${BOTAO_DIVISAO}
+    Click Element    ${BOTAO_5}
+    Click Element    ${BOTAO_IGUAL}
+    Wait Until Element Is Visible    ${CAMPO_RESULTADO}

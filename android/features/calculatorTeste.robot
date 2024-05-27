@@ -29,14 +29,8 @@ Teste de Subtração
     Aguarda o elemento carregar e verifica o texto    ${CAMPO_RESULTADO}    443
 
 Teste de Divisão
-    Click Element    com.google.android.calculator:id/digit_5
-    Click Element    com.google.android.calculator:id/digit_0
-    Click Element    com.google.android.calculator:id/digit_0
-    Click Element    com.google.android.calculator:id/op_div
-    Click Element    com.google.android.calculator:id/digit_5
-    Click Element    com.google.android.calculator:id/eq
-    Wait Until Element Is Visible    com.google.android.calculator:id/result_final
-    Element Should Contain Text    com.google.android.calculator:id/result_final    100
+    Testando qual o valor de 500 dividido por 5
+    Aguarda o elemento carregar e verifica o texto    ${CAMPO_RESULTADO}    100
 
 Teste de Multiplicação
     Testando qual o valor de 500 vezes 5
